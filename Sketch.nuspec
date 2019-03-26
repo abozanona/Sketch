@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<package>
+  <metadata>
+    <id>Sketch</id>
+    <version>1.0.0</version>
+    <title>Sketch</title>
+    <authors>Abozanona</authors>
+    <owners>Abozanona</owners>
+    <!-- <licenseUrl>https://www.website.com/terms</licenseUrl> -->
+    <projectUrl>https://github.com/abozanona/Sketch</projectUrl>
+    <!-- <iconUrl>https://www.website.com/logo.png</iconUrl> -->
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Creating the database and GUI from Models</description>
+    <releaseNotes>Initial 1.0.0 release</releaseNotes>
+    <!-- <copyright>Copyright 2018 CompanyLtd</copyright> -->
+    <!-- <tags>sample nuget</tags> -->
+    <dependencies>
+      <dependency id="sqlite-net-pcl" version="1.0.0" />
+    </dependencies>
+    <summary>Sketch is a c# library for creating the database and GUI automatically for accounting descktop and mobile applications in c#.</summary>
+  </metadata>
+  <files>
+    <file src="Sketch\Classes\**" target="content\Classes"/>
+    <file src="Sketch\Models\**" target="content\Models"/>
+  </files>
+</package>
